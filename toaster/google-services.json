@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "254147847420",
+    "project_id": "toaster-61fcc",
+    "storage_bucket": "toaster-61fcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254147847420:android:130d5050a9a12f77aa6379",
+        "android_client_info": {
+          "package_name": "com.example.toaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254147847420-38iksj8gpo8vjaseeho2qbf079vosh7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmENCCrDdU5wZYrMCSkIghEcII1XnW3Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254147847420-38iksj8gpo8vjaseeho2qbf079vosh7m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
