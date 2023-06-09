@@ -7,7 +7,7 @@ import com.example.toaster.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ActivityMainBinding binding;
+    public static String PACKAGE_NAME;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toaster.simpleToast(this,"show message here this toast comes from toaster");
+
+        Toaster.captureEvent(false);
+
+        PACKAGE_NAME = getApplicationContext().getPackageName();
+        Toaster.setApplicationName(PACKAGE_NAME);
 
     }
 
